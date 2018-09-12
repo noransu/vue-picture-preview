@@ -8,7 +8,7 @@
                 :src="preview.current.src"
                 :alt="preview.current.title"
                 v-show="!preview.loading"
-            >
+            />
             <div class="lg-preview-title" v-if="preview.isTitleEnable&&preview.current.title" v-show="!preview.loading">
                 {{preview.current.title}}
             </div>
